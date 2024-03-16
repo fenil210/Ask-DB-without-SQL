@@ -59,5 +59,14 @@ To begin using NaturalSQL, follow these simple steps:
 
 By leveraging NaturalSQL's intuitive interface and advanced language processing capabilities, data scientists can streamline their workflow and unlock the full potential of their databases with ease.
 
+### Other example for complex natural langauge query with it's SQL verification.
+
+![4 query 2 llm](https://github.com/fenil210/Ask-DB-without-SQL/assets/121050723/fcd1e1bd-c04a-4632-aa5c-f508e6e5ccf5)
+![5 query 2 vs code](https://github.com/fenil210/Ask-DB-without-SQL/assets/121050723/d3249e99-f4a2-42c2-9f19-2740b5f5f2ee)
+![6 query 2 mysql](https://github.com/fenil210/Ask-DB-without-SQL/assets/121050723/60b3a6b5-ece1-4bb1-a93b-0bbbb269441b)
+
+
+
+
 
 

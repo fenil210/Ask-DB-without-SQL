@@ -27,6 +27,36 @@ conda activate venv
 pip install -r requirements.txt
 ```
 
+## Files Overview
+
+### `langchain_DB.py`
+
+This file contains code related to setting up the language chain for transforming natural language queries into SQL commands. Here's what it does:
+- Imports necessary modules and libraries for language processing and database interaction.
+- Defines a function `get_few_shot_db_chain()` to set up the language chain using various components like GooglePalm language model, HuggingFace embeddings, and SemanticSimilarityExampleSelector.
+- Sets up prompts for few-shot learning to improve language understanding.
+- Provides a template for SQL queries and results.
+- Initializes the database connection and returns the language chain.
+
+### `ui.py`
+
+This file contains the user interface code using Streamlit for interacting with the SQL query generation system. Here's what it does:
+- Imports Streamlit library for building web applications.
+- Imports `get_few_shot_db_chain()` function from `langchain_DB.py` for setting up the language chain.
+- Sets up a Streamlit sidebar for database connection details.
+- Displays a text area for users to enter their natural language query.
+- Handles database connection and query execution based on user input.
+- Displays the generated SQL query and its results on the user interface.
+
+### `learn_example.py`
+
+This file contains examples of natural language queries along with their corresponding SQL queries and expected answers. Here's what it does:
+- Defines a list of few-shot examples, each containing a natural language query, its corresponding SQL query, and the expected answer.
+- These examples are used for training and improving the language model's understanding of natural language queries.
+
+Each file contributes to different aspects of your project, from setting up the language chain and database interaction to providing examples for training the language model.
+
+
 ## Technologies Used
 
 NaturalSQL incorporates several key technologies and frameworks to deliver seamless text-to-SQL conversion:

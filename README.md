@@ -14,6 +14,19 @@ Data scientists often face challenges when attempting to interact with databases
 
 NaturalSQL is a revolutionary solution that bridges the gap between natural language and SQL, enabling users to effortlessly transform complex natural language queries into actionable SQL commands. Powered by cutting-edge Language Model (LLM) technology, NaturalSQL leverages advanced machine learning mechanisms to interpret and process natural language queries with precision and accuracy.
 
+## Setting up Virtual Environment
+
+```bash
+# Create a virtual environment named 'venv'
+conda create -n venv
+
+# Activate the virtual environment
+conda activate venv
+
+# Install required packages
+pip install -r requirements.txt
+```
+
 ## Technologies Used
 
 NaturalSQL incorporates several key technologies and frameworks to deliver seamless text-to-SQL conversion:
@@ -46,12 +59,5 @@ To begin using NaturalSQL, follow these simple steps:
 
 By leveraging NaturalSQL's intuitive interface and advanced language processing capabilities, data scientists can streamline their workflow and unlock the full potential of their databases with ease.
 
-## Create a virtual environment named 'venv'
-conda create -p venv
 
-## Activate the virtual environment
-conda activate venv
-
-## Install required packages
-pip install -r requirements.txt
 

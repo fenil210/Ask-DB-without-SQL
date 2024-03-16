@@ -54,8 +54,6 @@ This file contains examples of natural language queries along with their corresp
 - Defines a list of few-shot examples, each containing a natural language query, its corresponding SQL query, and the expected answer.
 - These examples are used for training and improving the language model's understanding of natural language queries.
 
-Each file contributes to different aspects of your project, from setting up the language chain and database interaction to providing examples for training the language model.
-
 
 ## Technologies Used
 
@@ -87,7 +85,7 @@ To begin using NaturalSQL, follow these simple steps:
 ![2 query 1 llm](https://github.com/fenil210/Ask-DB-without-SQL/assets/121050723/9c85dd42-dd4e-46ed-8fc6-1deeedfa8b4a)
 ![3 query 1 mysql](https://github.com/fenil210/Ask-DB-without-SQL/assets/121050723/36483474-b981-4a45-ab91-72484fcc4f7f)
 
-By leveraging NaturalSQL's intuitive interface and advanced language processing capabilities, data scientists can streamline their workflow and unlock the full potential of their databases with ease.
+By leveraging NaturalSQL's intuitive interface and advanced language processing capabilities, data scientists and normal users can streamline their workflow and unlock the full potential of their databases with ease.
 
 ### Other example for complex natural langauge query with it's SQL verification.
 

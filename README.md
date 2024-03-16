@@ -59,7 +59,7 @@ This file contains examples of natural language queries along with their corresp
 
 NaturalSQL incorporates several key technologies and frameworks to deliver seamless text-to-SQL conversion:
 
-1. **LLM (Gemini Pro 1.0)**: NaturalSQL harnesses the power of Gemini Pro 1.0, an advanced Language Model, to understand and interpret natural language queries effectively.
+1. **LLM (Gemini Pro 1.0)**: NaturalSQL harnesses the power of Gemini 1.0 Pro, an advanced Language Model, to understand and interpret natural language queries effectively.
 
 2. **MySQL for Local DB Connection**: NaturalSQL connects to MySQL databases locally, providing users with a familiar and reliable database environment for query execution.
 

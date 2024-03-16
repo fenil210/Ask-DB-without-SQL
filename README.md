@@ -33,21 +33,25 @@ NaturalSQL incorporates several key technologies and frameworks to deliver seaml
 To begin using NaturalSQL, follow these simple steps:
 
 1. **Provide Database Details**: In the left corner of the interface, enter the necessary details related to your database, including the database username, password, host, and database name.
-
+   
 2. **Connect to Database**: Once the system successfully connects to your database, you can proceed to enter your query in natural language format.
+![1 database connect](https://github.com/fenil210/Ask-DB-without-SQL/assets/121050723/d1d0d519-8f27-4b03-9feb-d5c06158d604)
+
 
 3. **Submit Query**: Enter your natural language query in the provided input field and submit it for processing.
 
 4. **View Results**: NaturalSQL will execute the query against the database and display the results along with the corresponding SQL query used for retrieval.
+![2 query 1 llm](https://github.com/fenil210/Ask-DB-without-SQL/assets/121050723/9c85dd42-dd4e-46ed-8fc6-1deeedfa8b4a)
+![3 query 1 mysql](https://github.com/fenil210/Ask-DB-without-SQL/assets/121050723/36483474-b981-4a45-ab91-72484fcc4f7f)
 
 By leveraging NaturalSQL's intuitive interface and advanced language processing capabilities, data scientists can streamline their workflow and unlock the full potential of their databases with ease.
 
-# Create a virtual environment named 'venv'
+## Create a virtual environment named 'venv'
 conda create -p venv
 
-# Activate the virtual environment
+## Activate the virtual environment
 conda activate venv
 
-# Install required packages
+## Install required packages
 pip install -r requirements.txt
 

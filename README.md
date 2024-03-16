@@ -41,3 +41,13 @@ To begin using NaturalSQL, follow these simple steps:
 4. **View Results**: NaturalSQL will execute the query against the database and display the results along with the corresponding SQL query used for retrieval.
 
 By leveraging NaturalSQL's intuitive interface and advanced language processing capabilities, data scientists can streamline their workflow and unlock the full potential of their databases with ease.
+
+# Create a virtual environment named 'venv'
+conda create -p venv
+
+# Activate the virtual environment
+conda activate venv
+
+# Install required packages
+pip install -r requirements.txt
+
